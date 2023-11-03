@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Operator</title>
+</head>
+<body>
+    <script>
+        var person = {                      // Object Create
+            FirstName : "Joel",
+            LastName  : "Christain",
+            age: 28
+        };
+
+        document.write("First name  = " + person.FirstName);
+        document.write("<br> ");
+        document.write("last name  = " + person.LastName);
+        document.write("<br> ");
+        document.write("Age = " + person.age);
+        document.write("<br> ");
+
+
+        delete person.LastName;
+        document.write("Delete last name for object => " + person.LastName);
+    </script>
+    
+</body>
+</html>
