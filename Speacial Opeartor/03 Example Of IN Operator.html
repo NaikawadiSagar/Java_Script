@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Operator</title>
+</head>
+<body>
+    <script>
+         var person = {                 // Object create
+            FirstName : "Joel",
+            LastName  : "Christain",
+            age: 28
+        };
+
+        var Z = 'FirstName' in person ? true : false;      // IF age is exist in person object then print ture neither print false
+        document.write("IF 'age' is exist in person object =  "+ Z);
+    </script>
+</body>
+</html>
